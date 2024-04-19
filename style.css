@@ -1,0 +1,54 @@
+body{
+    background-color: gray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+  }
+  
+  a {
+    font-size: 30px;
+    margin-top: 2vw;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vw;
+    flex-direction: column;
+
+  }
+
+  .banner{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1vw;
+  }
+
+  .clock{
+   width: 200px;
+   height: 50px;
+   background-color: orange;
+   border-radius: 10px;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+  }
